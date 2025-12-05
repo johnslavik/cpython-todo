@@ -1,5 +1,5 @@
 # cpython-todo
-Backlog of the things I want to do in CPython next, sorted by interestingness
+Backlog of the things I want to do in CPython next, sorted by interestingness in descending order
 
 - [ ] python/cpython#90910 Improve Python Language Reference based on [Köhl 2020]
 - [ ] python/cpython#71902 call-matcher breaks if a method is mocked with spec=True
