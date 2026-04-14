@@ -13,20 +13,20 @@ Backlog of the things I want to do in CPython next, sorted by interestingness in
 
 Add some syntax error specializations from https://github.com/astral-sh/ruff/tree/728609a06e590e8b458714b4e17d6b16828c21e7/crates/ruff_python_parser/resources/invalid/statements
 
-- [ ] this:
+- [x] this:
   ```py
   match subject:
       case *_:
           pass
   ```
-- [ ] this:
+- [x] this:
   ```py
   # Unary addition isn't allowed but we parse it for better error recovery.
   match subject:
       case +1:
           pass
   ```
-- [ ] this:
+- [x] this:
   ```py
   with item,: pass
   ```
